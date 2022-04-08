@@ -1,0 +1,74 @@
+.form{
+ margin-bottom: 115px; 
+}
+.card {
+  margin: 10px auto;
+  position: relative;
+  width: 50%;
+  padding: 25px;
+  border-radius: 7px;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.buttoncard {
+  margin: 10px auto;
+  width: 50%;
+  padding: 25px;
+  border-radius: 7px;
+  background-color: white;
+  text-align: center;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.helper{
+  position: fixed;
+  justify-content: center;
+  display: flex;
+  margin-bottom: 10px;
+  left: 0;
+  right: 0; 
+  bottom: 0;  
+}
+.timercard {
+  width: 50%;
+  text-align: center;
+  border-radius: 7px;
+  background-color: white;
+  padding: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, 
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; 
+}
+
+@media screen and (max-width: 550px) {
+  .card {
+    margin: 10px auto;
+    position: relative;
+    width: 70%;
+    padding: 25px;
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+  .buttoncard {
+    margin: 10px auto;
+    width: 70%;
+    padding: 25px;
+    border-radius: 7px;
+    background-color: white;
+    text-align: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  }
+  .timercard {
+    width: 70%;
+    text-align: center;
+    border-radius: 7px;
+    background-color: white;
+    padding: 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, 
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px; 
+  }
+}
